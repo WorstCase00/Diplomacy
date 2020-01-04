@@ -1,0 +1,65 @@
+node.sea {
+    shape: circle;
+    fill-color: powderblue;
+    size: 45px;
+    text-alignment: center;
+}
+
+node.capital {
+    shape: diamond;
+    fill-color: lightyellow;
+    size: 45px;
+    /*fooL: foo;*/
+    /*stroke-width: 10px;*/
+    /*stroke-color: darkgreen;*/
+    text-alignment: center;
+}
+
+node.land {
+    shape: rounded-box;
+    fill-color: wheat;
+    size: 45px;
+    text-alignment: center;
+}
+
+
+sprite.armyItaly {
+    text-style: bold;
+    text-size: 14px;
+    text-color: darkgreen;
+    size: 25px;
+    text-alignment: center;
+    fill-mode: none;
+    text-offset: 0px, 10px;
+}
+
+sprite.Italy {
+    fill-mode: none;
+    size: 50px;
+    stroke-mode: plain;
+    stroke-width: 5px;
+    stroke-color: darkgreen;
+    shape: circle;
+    z-index: 1;
+}
+
+sprite.France {
+    fill-mode: none;
+    size: 50px;
+    stroke-mode: plain;
+    stroke-width: 5px;
+    stroke-color: blue;
+    shape: circle;
+    z-index: 1;
+}
+
+sprite.armyFrance {
+    text-style: bold;
+    text-size: 14px;
+    text-color: blue;
+    size: 25px;
+    text-alignment: center;
+    fill-mode: none;
+    text-offset: 0px, 10px;
+}
+
